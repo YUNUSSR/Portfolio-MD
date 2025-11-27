@@ -10,14 +10,14 @@ function Hero() {
       <div className="flex flex-col gap-4">
         <p className="text-sm text-blue-400">Hello, I’m Yunus 👋</p>
 
-        <h2 className="text-xl sm:text-4xl font-bold leading-tight">
-          I build modern web experiences<br></br>using{" "}
-          <span className="text-blue-400">React & Tailwind</span>.
+        <h2 className="text-xl sm:text-4xl font-bold leading-tight">I create interactive dashboards<br></br>and modern web applications using<br></br>
+          {" "}
+          <span className="text-blue-400">Power BI, React and Tailwind</span>.
         </h2>
 
         <p className="text-slate-400 max-w-xl">
-          I'm a developer currently learning JavaScript and Python. I enjoy building clean,
-          responsive and user-friendly interfaces while improving my problem-solving skills.
+          I'm a data-driven professional skilled in Power BI and React. I enjoy transforming data into insights and building clean, user-friendly web interfaces. Currently improving my skills in JavaScript and Python to strengthen problem-solving.
+
         </p>
 
         <div className="flex gap-3 mt-4">
