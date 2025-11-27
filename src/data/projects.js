@@ -18,7 +18,7 @@ const projects = [
     description:
       "This portfolio website built using React, Vite, and Tailwind CSS to showcase my experience and projects.",
     tech: ["React", "Vite", "Tailwind CSS"],
-    link: "https://github.com/your-github-username/portfolio",
+    link: "https://github.com/YUNUSSR/Portfolio-MD",
   },
 ];
 
