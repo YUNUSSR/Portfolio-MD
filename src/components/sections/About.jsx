@@ -1,7 +1,7 @@
 function About() {
   return (
     <section id="about" className="py-16 space-y-4" data-aos="fade-up">
-      <h3 className="text-2xl font-semibold text-blue-400">About Me</h3>
+      <h3 className="text-2xl font-semibold">About Me</h3>
 
       <p className="text-slate-400 max-w-5xl">
         I'm Yunus, a data–driven professional with a unique mix of experience in
