@@ -12,7 +12,7 @@ function Projects() {
         A selection of my work in Power BI and web development.
       </p>
 
-      <div className="grid gap-6 sm:grid-cols-2">
+      <div className="grid gap-6 sm:grid-cols-3">
         {projects.map((project, index) => (
           <article
             key={project.title}
