@@ -5,8 +5,8 @@ function Education() {
       className="py-16 space-y-6"
       data-aos="fade-up"
     >
-      <h3 className="text-2xl font-semibold">Education</h3>
-
+      <h3 className="text-2xl font-semibold ">Education</h3>
+      <div className="grid gap-6 sm:grid-cols-2">
       <div
         className="border border-slate-800 rounded-xl p-4 sm:p-5 bg-slate-900/40"
         data-aos="fade-right"
@@ -26,13 +26,13 @@ function Education() {
         </div>
       </div>
 
-      <div className="grid gap-4 sm:grid-cols-2">
+      <div className="grid gap-4">
         <div
           className="border border-slate-800 rounded-xl p-4 bg-slate-900/30"
           data-aos="fade-up"
           data-aos-delay="100"
         >
-          <h5 className="text-sm font-semibold mb-1">
+          <h5 className="text-lg font-semibold">
             Certifications
           </h5>
           <ul className="text-xs text-slate-400 space-y-1 list-disc list-inside">
@@ -41,20 +41,7 @@ function Education() {
             <li>Generative AI Workshop (Data Shore)</li>
           </ul>
         </div>
-
-        <div
-          className="border border-slate-800 rounded-xl p-4 bg-slate-900/30"
-          data-aos="fade-up"
-          data-aos-delay="150"
-        >
-          <h5 className="text-sm font-semibold mb-1">
-            Achievements
-          </h5>
-          <ul className="text-xs text-slate-400 space-y-1 list-disc list-inside">
-            <li>2nd Prize in Weightlifting – University Level</li>
-            <li>2nd & 3rd Prize in Powerlifting – State & District Levels</li>
-          </ul>
-        </div>
+      </div>
       </div>
     </section>
   );

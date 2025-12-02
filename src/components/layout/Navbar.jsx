@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,23 +18,39 @@ function Navbar() {
   return (
     <header className="sticky top-0 z-20 backdrop-blur bg-slate-950/70 border-b border-slate-800">
       <nav className="max-w-5xl mx-auto flex items-center justify-between px-4 py-3">
-        {/* LEFT: Social links */}
-        <div className="flex items-center gap-3 text-xs sm:text-sm">
+        {/* LEFT: Social icons */}
+        <div className="flex items-center gap-3 text-lg">
+          {/* GitHub */}
           <a
             href="https://github.com/YUNUSSR"
             target="_blank"
             rel="noreferrer"
-            className="px-2 py-1 rounded-full border border-slate-700 hover:border-blue-400 hover:text-blue-400 transition"
+            className="p-2 rounded-full border border-slate-700 hover:border-blue-400 hover:text-blue-400 transition"
+            aria-label="GitHub"
           >
-            GitHub
+            <FaGithub />
           </a>
+
+          {/* LinkedIn */}
           <a
             href="https://www.linkedin.com/in/mohamed-yunus-sr/"
             target="_blank"
             rel="noreferrer"
-            className="px-2 py-1 rounded-full border border-slate-700 hover:border-blue-400 hover:text-blue-400 transition"
+            className="p-2 rounded-full border border-slate-700 hover:border-blue-400 hover:text-blue-400 transition"
+            aria-label="LinkedIn"
           >
-            LinkedIn
+            <FaLinkedin />
+          </a>
+
+          {/* Instagram */}
+          <a
+            href="https://www.instagram.com/md_.d._yunus?igsh=MmhqcXFvcW5yeGVt"
+            target="_blank"
+            rel="noreferrer"
+            className="p-2 rounded-full border border-slate-700 hover:border-blue-400 hover:text-blue-400 transition"
+            aria-label="Instagram"
+          >
+            <FaInstagram />
           </a>
         </div>
 

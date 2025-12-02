@@ -8,7 +8,7 @@ function Hero() {
     >
       {/* Left: Text */}
       <div className="flex flex-col gap-4">
-        <p className="text-sm text-blue-400">Hello, I’m Yunus 👋</p>
+        <p className="text-4xl text-blue-400">Hello, I’m Yunus 👋</p>
 
         <h2 className="text-xl sm:text-4xl font-bold leading-tight">I create interactive dashboards<br></br>and modern web applications using<br></br>
           {" "}

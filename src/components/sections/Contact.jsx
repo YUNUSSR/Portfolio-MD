@@ -1,3 +1,5 @@
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+
 function Contact() {
   return (
     <section
@@ -44,26 +46,37 @@ function Contact() {
           <ul className="space-y-1 text-sm">
             <li>
               <a
-                href="https://github.com/YUNUSSR"
-                target="_blank"
-                rel="noreferrer"
-                className="text-blue-400 hover:underline"
+              href="https://github.com/YUNUSSR"
+              target="_blank"
+              rel="noreferrer"
+              className="text-blue-400 hover:underline flex items-center gap-2"
               >
-                GitHub
-              </a>
-            </li>
-            <li>
+              <FaGithub className="text-base" />
+              GitHub
+            </a>
+          </li>
+          <li>
               <a
-                href="https://www.linkedin.com/in/mohamed-yunus-sr/"
-                target="_blank"
-                rel="noreferrer"
-                className="text-blue-400 hover:underline"
+              href="https://www.linkedin.com/in/mohamed-yunus-sr/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-blue-400 hover:underline flex items-center gap-2"
               >
-                LinkedIn
-              </a>
-            </li>
-            <li>
-            </li>
+              <FaLinkedin className="text-base" />
+              LinkedIn
+            </a>
+          </li>
+          <li>
+              <a
+              href="https://www.instagram.com/md_.d._yunus?igsh=MmhqcXFvcW5yeGVt"
+              target="_blank"
+              rel="noreferrer"
+              className="text-blue-400 hover:underline flex items-center gap-2"
+              >
+              <FaInstagram className="text-base" />
+              Instagram
+            </a>
+          </li>
           </ul>
         </div>
       </div>
