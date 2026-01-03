@@ -4,7 +4,7 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="py-16 space-y-6"
+      className="py-10 space-y-6"
       data-aos="fade-up"
     >
       <h3 className="text-2xl font-semibold">Projects</h3>
@@ -12,7 +12,7 @@ function Projects() {
         A selection of my work in Power BI and web development.
       </p>
 
-      <div className="grid gap-6 sm:grid-cols-3">
+      <div className="grid gap-6 sm:grid-cols-2">
         {projects.map((project, index) => (
           <article
             key={project.title}

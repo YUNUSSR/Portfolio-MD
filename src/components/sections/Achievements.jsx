@@ -3,7 +3,7 @@ import achievements from "../../data/achievements";
 
 function Achievements() {
   return (
-    <section id="achievements" className="py-12 space-y-6" data-aos="fade-up">
+    <section id="achievements" className="py-10 space-y-6" data-aos="fade-up">
       <h3 className="text-2xl font-semibold">Achievements</h3>
       <p className="text-slate-400 text-sm max-w-2xl">
         Selected achievements during my college and extracurricular activities.

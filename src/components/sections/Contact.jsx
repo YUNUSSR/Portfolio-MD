@@ -4,7 +4,7 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="py-16 space-y-6"
+      className="py-10 space-y-6"
       data-aos="fade-up"
     >
       <h3 className="text-2xl font-semibold">Contact</h3>

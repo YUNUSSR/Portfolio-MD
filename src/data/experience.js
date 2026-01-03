@@ -1,5 +1,22 @@
 const experience = [
   {
+  title: "MERN Stack Developer Trainee",
+  company: "Maskan Technologies",
+  location: "Bengaluru, India",
+  period: "Sep 2025 — Dec 2025",
+  description:
+    "Completed hands-on MERN stack training with real-world project development focusing on scalable web applications and RESTful APIs.",
+  highlights: [
+    "Analyzed application requirements and designed scalable frontend and backend architecture using the MERN stack.",
+    "Developed a full-stack YouTube-like web application using React, Node.js, Express.js, and MongoDB.",
+    "Built RESTful APIs and implemented CRUD operations with secure data handling.",
+    "Designed responsive UI components using Tailwind CSS and integrated frontend with backend services.",
+    "Tested APIs using Postman and managed code versioning and debugging using GitHub."
+  ],
+  order: 1,
+}
+,
+  {
     title: "Trainee Recruiter",
     company: "VDart-GCC",
     location: "Tiruchirappalli, India",
@@ -11,10 +28,10 @@ const experience = [
       "Managed and updated large candidate databases ensuring data accuracy and consistency.",
       "Used ATS tools to streamline screening and recruitment workflows.",
     ],
-    order: 1,
+    order: 2,
   },
   {
-    title: "Data & Financial Analyst / Fitness Trainer",
+    title: "Data & Financial Analyst / Fitness Trainer (Part-Time)",
     company: "Thor Gym and Fitness Studio",
     location: "Manapparai, India",
     period: "Mar 2023 — Jun 2024",
@@ -25,7 +42,7 @@ const experience = [
       "Prepared periodic financial reports and suggested process improvements.",
       "Supported operational decisions using data-driven insights.",
     ],
-    order: 2,
+    order: 3,
   },
   {
     title: "Power BI Intern",
@@ -39,7 +56,7 @@ const experience = [
       "Monitored KPIs and project metrics for stakeholder reporting.",
       "Applied data transformation and visualization techniques.",
     ],
-    order: 3,
+    order: 4,
   },
 ];
 

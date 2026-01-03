@@ -2,7 +2,7 @@ function Education() {
   return (
     <section
       id="education"
-      className="py-16 space-y-6"
+      className="py-10 space-y-6"
       data-aos="fade-up"
     >
       <h3 className="text-2xl font-semibold ">Education</h3>
@@ -36,6 +36,7 @@ function Education() {
             Certifications
           </h5>
           <ul className="text-xs text-slate-400 space-y-1 list-disc list-inside">
+            <li>Full Stack Development (InvoTech Digital Academy)</li>
             <li>Deloitte Australia Data Analytics Job Simulation (Forage)</li>
             <li>Advanced Power BI Masterclass (Skill Nation)</li>
             <li>Generative AI Workshop (Data Shore)</li>
